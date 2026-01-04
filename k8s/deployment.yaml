@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: calculator
-          image: us-central1-docker.pkg.dev/PROJECT_ID_PLACEHOLDER/test-images/calculator-app:IMAGE_TAG_PLACEHOLDER
+          image: IMAGE_TAG_PLACEHOLDER
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
